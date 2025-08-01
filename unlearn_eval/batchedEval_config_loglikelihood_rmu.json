@@ -1,7 +1,8 @@
 {
-  "model_path": "mistralai/Mistral-7B-Instruct-v0.2",
-  "output_dir": "mistralai/Mistral-7B-Instruct-v0.2",
-  "batch_size": 16,
+  "model_path": "/gs/bs/tga-TDSAI/h1kkk/unlearn/embedders/LLM2Vec/llm2vec/open_unlearning/saves/unlearn/celebrity_rmu_death_Mixtral",
+  
+  "output_dir": "./output_easyQA_diagnosis/rmu",
+  "batch_size": 30,
   "max_new_tokens": 50,
   "apply_chat_template": null,
   "mcq_eval_mode": "llh",
@@ -13,6 +14,7 @@
     "mcqs_diagnosis_id": "data/mcqs_diagnosis_id.jsonl",
     "mcqs_diagnosis_att": "data/mcqs_diagnosis_att.jsonl",
     "mcqs_deaths_id_eq": "data/mcqs_deaths_id_eq.jsonl",
+    "mcqs_deaths_att": "data/mcqs_deaths_att.jsonl",
     "mcqs_deaths_id_sim": "data/mcqs_deaths_id_sim.jsonl"
   }
 }
